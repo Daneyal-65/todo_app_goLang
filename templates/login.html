@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo | Login</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.7rem 0;
+      padding-left: 4px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form {
+      padding: 0 2rem;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #071147;
+    }
+
+    .link {
+      margin: 1rem;
+      color: #050b42;
+      font-size: medium;
+      font-weight: 400;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form id="login-form">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">login</button>
+      </form>
+      <a href="/" class="link">need signIn first ! go to register</a>
+    </div>
+    <script src="/static/login.js"></script>
+  </body>
+</html>
